@@ -4,8 +4,6 @@ import java.time.LocalDate;
 
 public class EpassFuncionario extends PasseStandard implements TituloTransporte{
 
-    protected void clone(PasseStandard pass) {
-    }
 
     public void carregar(double n){
         super.SetSaldo(n);
